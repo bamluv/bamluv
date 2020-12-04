@@ -1,0 +1,50 @@
+{
+  "name": "bamluv",
+  "version": "1.0.0",
+  "description": "Site Builder Helper CLI with api creation for a project at woz-u",
+  "main": "daemon.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://bitbucket.org/devmachinist/bamluv.git"
+  },
+  "keywords": [
+    "wozu",
+    "angular",
+    "react",
+    "open-source",
+    "cli",
+    "node",
+    "javascript",
+    "api",
+    "bamluv",
+    "devtools"
+  ],
+  "author": "Matthew Teague",
+  "license": "MIT",
+  "homepage": "https://bitbucket.org/devmachinist/bamluv-us-en#readme",
+  "bin": {
+    "user": "bin/user.js",
+    "init": "bin/init.js",
+    "add": "bin/add.js",
+    "build": "bin/build.js",
+    "serve": "bin/serve.js",
+    "run": "bin/serve.js",
+    "start": "bin/serve.js",
+    "edit": "bin/edit.js",
+    "theme": "bin/theme.js",
+    "nav": "bin/nav.js",
+    "body": "bin/body.js",
+    "footer": "bin/footer.js",
+    "admanager": "bin/admanager.js",
+    "subscription": "bin/subscription.js",
+    "config": "bin/config.js",
+    "rodeo": "bin/rodeo.js"
+  },
+  "dependencies": {
+    "esm": "^3.2.25",
+    "express": "^4.17.1"
+  }
+}
