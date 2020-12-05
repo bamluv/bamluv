@@ -1,10 +1,13 @@
 {
   "name": "bamluv",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Site Builder Helper CLI with api creation for a project at woz-u",
   "main": "daemon.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=7.8.0"
   },
   "repository": {
     "type": "git",
@@ -26,7 +29,7 @@
   "license": "MIT",
   "homepage": "https://bitbucket.org/devmachinist/bamluv-us-en#readme",
   "bin": {
-    "bamluv user": "bin/user.js",
+    "bamluv": "bin/user.js",
     "bamluv init": "bin/init.js",
     "bam add": "bin/add.js",
     "bam build": "bin/build.js",
@@ -45,6 +48,8 @@
   },
   "dependencies": {
     "esm": "^3.2.25",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "node": "^15.3.0",
+    "readline": "^1.3.0"
   }
 }
